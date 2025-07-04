@@ -1,3 +1,7 @@
+const quoteContent = document.getElementById("quoteContent");
+const quoteAuthor = document.getElementById("quoteAuthor");
+const getQuoteBtn = document.getElementById("getQuoteBtn");
+
 getQuoteBtn.addEventListener("click", async () => {
   await displayQuote();
 });
